@@ -1,0 +1,2 @@
+Initial state: d0inp0 d1inp0 d2inp0 d0outp1 d1outp1 d2outp1 d0outp2 d1outp2 d2outp2
+Goal state: d0outp0 d1outp0 d2outp0 d0outp1 d1outp1 d2outp1 d0inp2 d1inp2 d2inp2

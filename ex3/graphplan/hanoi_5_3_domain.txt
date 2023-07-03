@@ -1,0 +1,123 @@
+Propositions:
+d0inp0 d0outp0 d0inp1 d0outp1 d0inp2 d0outp2 d1inp0 d1outp0 d1inp1 d1outp1 d1inp2 d1outp2 d2inp0 d2outp0 d2inp1 d2outp1 d2inp2 d2outp2 d3inp0 d3outp0 d3inp1 d3outp1 d3inp2 d3outp2 d4inp0 d4outp0 d4inp1 d4outp1 d4inp2 d4outp2 
+Actions:
+Name: MV_d0p0p1
+pre: d0inp0 d0outp1 d0outp2
+add: d0inp1 d0outp0
+delete: d0outp1 d0inp0
+Name: MV_d0p0p2
+pre: d0inp0 d0outp1 d0outp2
+add: d0inp2 d0outp0
+delete: d0outp2 d0inp0
+Name: MV_d0p1p0
+pre: d0inp1 d0outp0 d0outp2
+add: d0inp0 d0outp1
+delete: d0outp0 d0inp1
+Name: MV_d0p1p2
+pre: d0inp1 d0outp0 d0outp2
+add: d0inp2 d0outp1
+delete: d0outp2 d0inp1
+Name: MV_d0p2p0
+pre: d0inp2 d0outp0 d0outp1
+add: d0inp0 d0outp2
+delete: d0outp0 d0inp2
+Name: MV_d0p2p1
+pre: d0inp2 d0outp0 d0outp1
+add: d0inp1 d0outp2
+delete: d0outp1 d0inp2
+Name: MV_d1p0p1
+pre: d1inp0 d1outp1 d1outp2 d0outp1 d0outp0
+add: d1inp1 d1outp0
+delete: d1outp1 d1inp0
+Name: MV_d1p0p2
+pre: d1inp0 d1outp1 d1outp2 d0outp2 d0outp0
+add: d1inp2 d1outp0
+delete: d1outp2 d1inp0
+Name: MV_d1p1p0
+pre: d1inp1 d1outp0 d1outp2 d0outp0 d0outp1
+add: d1inp0 d1outp1
+delete: d1outp0 d1inp1
+Name: MV_d1p1p2
+pre: d1inp1 d1outp0 d1outp2 d0outp2 d0outp1
+add: d1inp2 d1outp1
+delete: d1outp2 d1inp1
+Name: MV_d1p2p0
+pre: d1inp2 d1outp0 d1outp1 d0outp0 d0outp2
+add: d1inp0 d1outp2
+delete: d1outp0 d1inp2
+Name: MV_d1p2p1
+pre: d1inp2 d1outp0 d1outp1 d0outp1 d0outp2
+add: d1inp1 d1outp2
+delete: d1outp1 d1inp2
+Name: MV_d2p0p1
+pre: d2inp0 d2outp1 d2outp2 d0outp1 d0outp0 d1outp1 d1outp0
+add: d2inp1 d2outp0
+delete: d2outp1 d2inp0
+Name: MV_d2p0p2
+pre: d2inp0 d2outp1 d2outp2 d0outp2 d0outp0 d1outp2 d1outp0
+add: d2inp2 d2outp0
+delete: d2outp2 d2inp0
+Name: MV_d2p1p0
+pre: d2inp1 d2outp0 d2outp2 d0outp0 d0outp1 d1outp0 d1outp1
+add: d2inp0 d2outp1
+delete: d2outp0 d2inp1
+Name: MV_d2p1p2
+pre: d2inp1 d2outp0 d2outp2 d0outp2 d0outp1 d1outp2 d1outp1
+add: d2inp2 d2outp1
+delete: d2outp2 d2inp1
+Name: MV_d2p2p0
+pre: d2inp2 d2outp0 d2outp1 d0outp0 d0outp2 d1outp0 d1outp2
+add: d2inp0 d2outp2
+delete: d2outp0 d2inp2
+Name: MV_d2p2p1
+pre: d2inp2 d2outp0 d2outp1 d0outp1 d0outp2 d1outp1 d1outp2
+add: d2inp1 d2outp2
+delete: d2outp1 d2inp2
+Name: MV_d3p0p1
+pre: d3inp0 d3outp1 d3outp2 d0outp1 d0outp0 d1outp1 d1outp0 d2outp1 d2outp0
+add: d3inp1 d3outp0
+delete: d3outp1 d3inp0
+Name: MV_d3p0p2
+pre: d3inp0 d3outp1 d3outp2 d0outp2 d0outp0 d1outp2 d1outp0 d2outp2 d2outp0
+add: d3inp2 d3outp0
+delete: d3outp2 d3inp0
+Name: MV_d3p1p0
+pre: d3inp1 d3outp0 d3outp2 d0outp0 d0outp1 d1outp0 d1outp1 d2outp0 d2outp1
+add: d3inp0 d3outp1
+delete: d3outp0 d3inp1
+Name: MV_d3p1p2
+pre: d3inp1 d3outp0 d3outp2 d0outp2 d0outp1 d1outp2 d1outp1 d2outp2 d2outp1
+add: d3inp2 d3outp1
+delete: d3outp2 d3inp1
+Name: MV_d3p2p0
+pre: d3inp2 d3outp0 d3outp1 d0outp0 d0outp2 d1outp0 d1outp2 d2outp0 d2outp2
+add: d3inp0 d3outp2
+delete: d3outp0 d3inp2
+Name: MV_d3p2p1
+pre: d3inp2 d3outp0 d3outp1 d0outp1 d0outp2 d1outp1 d1outp2 d2outp1 d2outp2
+add: d3inp1 d3outp2
+delete: d3outp1 d3inp2
+Name: MV_d4p0p1
+pre: d4inp0 d4outp1 d4outp2 d0outp1 d0outp0 d1outp1 d1outp0 d2outp1 d2outp0 d3outp1 d3outp0
+add: d4inp1 d4outp0
+delete: d4outp1 d4inp0
+Name: MV_d4p0p2
+pre: d4inp0 d4outp1 d4outp2 d0outp2 d0outp0 d1outp2 d1outp0 d2outp2 d2outp0 d3outp2 d3outp0
+add: d4inp2 d4outp0
+delete: d4outp2 d4inp0
+Name: MV_d4p1p0
+pre: d4inp1 d4outp0 d4outp2 d0outp0 d0outp1 d1outp0 d1outp1 d2outp0 d2outp1 d3outp0 d3outp1
+add: d4inp0 d4outp1
+delete: d4outp0 d4inp1
+Name: MV_d4p1p2
+pre: d4inp1 d4outp0 d4outp2 d0outp2 d0outp1 d1outp2 d1outp1 d2outp2 d2outp1 d3outp2 d3outp1
+add: d4inp2 d4outp1
+delete: d4outp2 d4inp1
+Name: MV_d4p2p0
+pre: d4inp2 d4outp0 d4outp1 d0outp0 d0outp2 d1outp0 d1outp2 d2outp0 d2outp2 d3outp0 d3outp2
+add: d4inp0 d4outp2
+delete: d4outp0 d4inp2
+Name: MV_d4p2p1
+pre: d4inp2 d4outp0 d4outp1 d0outp1 d0outp2 d1outp1 d1outp2 d2outp1 d2outp2 d3outp1 d3outp2
+add: d4inp1 d4outp2
+delete: d4outp1 d4inp2

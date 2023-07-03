@@ -1,0 +1,33 @@
+
+
+(action: None, priority: 0)
+all successors (action: Mr12, priority: 8), (action: Mq21, priority: 8), (action: Lar1, priority: 7), (action: Lbq2, priority: 7), 
+
+(action: Lar1, priority: 1)
+all successors (action: Mr12, priority: 7), (action: Mq21, priority: 9), (action: Lbq2, priority: 8), (action: Uar1, priority: 8), 
+
+(action: Mr12, priority: 2)
+all successors (action: Mr21, priority: 9), (action: Mq21, priority: 9), (action: Lbq2, priority: 8), (action: Uar2, priority: 7), 
+
+(action: Uar2, priority: 3)
+all successors (action: Mr21, priority: 8), (action: Mq21, priority: 8), (action: Lar2, priority: 9), (action: Laq2, priority: 9), (action: Lbr2, priority: 8), (action: Lbq2, priority: 8), 
+
+(action: Lbq2, priority: 1)
+all successors (action: Mr12, priority: 9), (action: Mq21, priority: 7), (action: Lar1, priority: 8), (action: Ubq2, priority: 8), 
+
+(action: Mq21, priority: 2)
+all successors (action: Mr12, priority: 9), (action: Mq12, priority: 9), (action: Lar1, priority: 8), (action: Ubq1, priority: 7), 
+
+(action: Ubq1, priority: 3)
+all successors (action: Mr12, priority: 8), (action: Mq12, priority: 8), (action: Lar1, priority: 8), (action: Laq1, priority: 8), (action: Lbr1, priority: 9), (action: Lbq1, priority: 9), 
+
+(action: Mq12, priority: 4)
+all successors (action: Mr12, priority: 10), (action: Mq21, priority: 9), (action: Lar1, priority: 9), (action: Lbr1, priority: 11), 
+
+(action: Lbr2, priority: 4)
+all successors (action: Mr21, priority: 8), (action: Mq21, priority: 9), (action: Laq2, priority: 10), (action: Ubr2, priority: 9), 
+
+(action: Mr21, priority: 5)
+all successors (action: Mr12, priority: 10), (action: Mq21, priority: 9), (action: Laq2, priority: 10), (action: Ubr1, priority: 8), 
+
+(action: Ubr1, priority: 6)

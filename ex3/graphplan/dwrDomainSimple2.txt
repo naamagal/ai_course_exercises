@@ -1,0 +1,19 @@
+Propositions:
+r1 r2 q1 q2 ur uq a1 a2 ar aq b1 b2 br bq
+Actions:
+Name: Mq21
+pre: q2
+add: q1
+delete: q2
+Name: Laq1
+pre: q1 a1 uq
+add: aq
+delete: a1 uq
+Name: Mq12
+pre: q1
+add: q2
+delete: q1
+Name: Uaq2
+pre: q2 aq
+add: uq a2
+delete: aq
