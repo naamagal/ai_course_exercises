@@ -1,2 +1,2 @@
 # AI COURSE: ALL CODING EXERCISES
-Work in  pairs with Adi Yehezkely
+Submission in pairs, with Adi Yehezkely
